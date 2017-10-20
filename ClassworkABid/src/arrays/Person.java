@@ -28,6 +28,14 @@ public class Person {
 		nickname = createNickname(firstName);
 	}
 	
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
 	public static String createNickname(String name) {
 		String nickname = "";
 		int vowelCount = 0;
